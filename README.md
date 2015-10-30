@@ -78,6 +78,9 @@ while 1 :
    # log 파일 확인
    # 터미널에서 실행
    tail -f /var/log/tcollector.log
+   => 에러나는거로그남겨준다
+       tail : 맨마지막만보여준다
+      
    
    # 터미닐에서 실행 - 특정 단어만 검색
    tail -f /var/log/tcollector.log | grep inha
