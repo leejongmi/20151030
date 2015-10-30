@@ -66,11 +66,10 @@ while 1 :
    
    # 파일 권한 변경(참고 블로그 : http://blog.naver.com/radii26omg/220337573729)
    chmod 777 insert_test.py
-   
-   '''sh
+
    > ll 로 권한확인한다.
    ps -as | grep tcolle => tcolle에 관한것만 보여준다.
-   '''
+   
    
    # openTSDB GUI에서 확인
    # http://127.0.0.1:4242
